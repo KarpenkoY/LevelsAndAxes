@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelsAndAxes", "LevelsAndAxes.csproj", "{56256F20-EAA8-4198-8F0C-71DFB7C047CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56256F20-EAA8-4198-8F0C-71DFB7C047CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56256F20-EAA8-4198-8F0C-71DFB7C047CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56256F20-EAA8-4198-8F0C-71DFB7C047CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56256F20-EAA8-4198-8F0C-71DFB7C047CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A691C125-39F6-46C9-91CB-6A4E2CCCEE39}
+	EndGlobalSection
+EndGlobal
