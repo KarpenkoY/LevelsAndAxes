@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+### Description
+LevelsAndAxes is a C# .NET Autodesk Revit API add-in. Depending on the entered data, it builds:
+1. Levels. The building comes from the highest existing level.
+2. Axes of the grid. Construction is possible both in both orientations, and in any one (vertical or horizontal). Axes are named automatically: horizontal axes - in alphabetical letters, vertical - in numbers.
+If there are axes before drawing, prefixes for the names of the axes, each of the orientations (for each new mesh) will be requested.
+3. Dimensional annotations between the grid axes.
 
-You can use the [editor on GitHub](https://github.com/KarpenkoY/LevelsAndAxes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Requirements
+Revit 2019 or 2020
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
+1. Get manifest and assembly files:
+    * Download both file in `*.zip` archive (Download Add-in button).
+    or
+    * Compile from source code (require RevitAPI.dll and RevitAPIUI.dll from Revit root directory)
+      * Download `*.zip` archive within source code (Download SRC button), load the solution file in Visual Studio, compile.
+      or
+      * Fork the repository, clone to your local system, load the solution file in Visual Studio, compile.
 
-### Markdown
+2. Install the add-in manifest file and the .NET DLL assembly in the standard Revit add-in location, for example by copying to `%ProgramData%\Autodesk\Revit\Addins\2020` (for all users at PC).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Launch
 
-```markdown
-Syntax highlighted code block
+1. Run Revit, allow load this add-in, open your project.
+2. Add-ins **>** External Tools **>** Create levels and axes gris
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KarpenkoY/LevelsAndAxes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### License
+This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Please see the [LICENSE](LICENSE) file for full details.
