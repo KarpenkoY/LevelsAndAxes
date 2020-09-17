@@ -1,4 +1,7 @@
 show_downloads: true
 github:
-  zip_url: https://github.com/KarpenkoY/LevelsAndAxes/releases/download/v0.1/LevelsAndAxes-v0.1.zip
+  is_project_page: false
+  is_user_page: true
+  zip_url: https://github.com/KarpenkoY/LevelsAndAxes/releases/download/v0.1/LevelsAndAxes_0.1_add-in.zip
+  tar_url: https://github.com/KarpenkoY/LevelsAndAxes/archive/v0.1.zip
 theme: jekyll-theme-minimal
